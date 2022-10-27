@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: darkgray;
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#mylogo{
+  color: darkmagenta;
+  text-align: center;
+}
+footer {
+  text-align:center;
+  position: fixed; 
+  bottom: 0; 
+  width:100%;
+}
+div {
+  position: relative;
+  font-size:50;
+}
