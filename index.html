@@ -17,32 +17,44 @@
   teal, blue, blurple, magenta, pink!
   -->
   <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
-<header>
+
   <h1 id="mylogo">SymplyU</h1>
-  <hr>
-  <br>
-  <div style="text-align:center;">
-    <a href="https://simple-portfolio.isplits.repl.co" target="_blank"><strong>Home</strong></a>
-    <hr>
-    <br>
-    <a href="about_me.html" target="_blank"><strong>About Me</strong></a>
-    <hr>
-    <br>
-    <a href="our_services.html" target="_blank"><strong>Our Services</strong></a>
-    <hr>
-    <br>
-    <a href="contact_me.html" target="_blank"><strong>Contact Me</strong></a>
-    <hr>
-  </div>
-  
-</header>
+  <p>Fill the following information to get started</p>
+  <form action="/completed.html">
+    <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="pnumber">Phone Number:</label><br>
+  <input type="tel"  id="pnumber" name="pnumber"><br>
+  <label for="email">Email  Address:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="gender">Gender:</label><br>
+    <select name="gender" id="gender">
+      <option value="Female">Female</option>
+      <option value="Male">Male</option>
+    </select><br>
+  <label for="date">Date Of Birth:</label><br>
+    <input type="date" id="date" name="date"> <br>
+  <label for="color">Favorite Color:</label><br>
+    <select name="color" id="color">
+      <option value="Red">Red</option>
+      <option value="Blue">Blue</option><br>
+      <option value="Green">Green</option>
+      <option value="Yellow">Yellow</option><br>
+      <option value="Black">Black</option>
+      <option value="Purple">Purple</option><br>
+      <option value="White">White</option>
+      <option value="Brown">Brown</option><br>
+    </select><br>
+  <label for="password"> Enter Your Password</label><br>
+  <input type="password" id="password" name="password"><br>
+  <label for="password"> Confirm Your Password</label><br>
+  <input type="password" id="password" name="password"><br><br><br>
+   <input type="submit" value="Submit">
+  </form>
 
-<footer>
-  <b>©iSplits 2022.</b>
-</footer>
-
-  
-
+  <footer>© iSplits 2022</footer>
 </body>
 
 </html>
